@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+  margin: 0 332px 0 76px;
+}
+
+.navigation a {
+  color: #2e2f42;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.contact {
+  display: flex;
+  gap: 40px;
+}
+
+.contact a {
+  color: #434455;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.hero {
+  padding: 180px 0 84px;
+}
+
+.hero ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.hero button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  background: #f4f4fd;
+
+  color: #4d5ae5;
+  text-align: center;
+
+  /* Button Text */
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.project ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0 156px 120px;
+}
+
+.project div {
+  padding: 32px 16px;
+}
+.project li {
+  width: 360px;
+  padding-bottom: 0px;
+  flex-shrink: 0;
+  border: 1px solid #e7e9fc;
+  background: #fff;
+}
+.project h3 {
+  color: #2e2f42;
+
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+}
+
+.project p {
+  color: #434455;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  padding: 100px 156px;
+  background: #2e2f42;
+}
+
+footer p {
+  color: #f4f4fd;
+  width: 264px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.logo-white {
+  color: #f4f4fd;
+  margin-bottom: 17.5px;
+}
