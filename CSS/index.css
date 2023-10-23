@@ -173,7 +173,7 @@
 
 .team li {
   display: inline-flex;
-  padding-bottom: 0px;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
