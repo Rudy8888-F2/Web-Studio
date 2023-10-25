@@ -100,6 +100,11 @@
   cursor: pointer;
 }
 
+.hero button:hover {
+  background-color: #404bbf;
+  color: #fff;
+}
+
 .project ul {
   display: flex;
   justify-content: center;
@@ -140,6 +145,8 @@
 }
 
 .footer {
+  display: flex;
+  gap: 120px;
   padding: 100px 156px;
   background: #2e2f42;
 }
@@ -157,4 +164,43 @@ footer p {
 .logo-white {
   color: #f4f4fd;
   margin-bottom: 17.5px;
+}
+
+.footer h2 {
+  color: #fff;
+
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.social-network {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-svg {
+  width: 24px;
+  height: 24px;
+}
+
+.social-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social-list {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }

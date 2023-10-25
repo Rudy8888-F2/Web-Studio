@@ -71,7 +71,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #2e2f42;
+  background: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-size: cover;
 }
 
 .hero h1 {
@@ -249,8 +255,9 @@
 .social-size {
   display: flex;
   justify-content: center;
-  width: 16px;
-  height: 16px;
+  align-items: center;
+  width: 40px;
+  height: 40px;
 }
 
 .team-foto {
@@ -259,12 +266,15 @@
   gap: 32px;
 }
 
+.team-svg {
+  width: 16px;
+  height: 16px;
+}
+
 .social-list {
   width: 40px;
   height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   border-radius: 50%;
   background-color: #4d5ae5;
 }
@@ -353,5 +363,7 @@ footer p {
   margin-bottom: 16px;
 }
 
-.social-media ul {
+.footer-svg {
+  width: 24px;
+  height: 24px;
 }
